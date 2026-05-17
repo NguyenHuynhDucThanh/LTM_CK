@@ -1,0 +1,146 @@
+[
+  {
+    "content": "Nhân vật chính trong Naruto là ai?",
+    "A": "Sasuke",
+    "B": "Kakashi",
+    "C": "Naruto Uzumaki",
+    "D": "Itachi",
+    "correct": "C"
+  },
+  {
+    "content": "One Piece xoay quanh hành trình tìm kho báu nào?",
+    "A": "Dragon Ball",
+    "B": "One Piece",
+    "C": "Death Note",
+    "D": "Blue Lock",
+    "correct": "B"
+  },
+  {
+    "content": "Trong Dragon Ball, biến hình mạnh nhất của Goku là gì?",
+    "A": "Super Saiyan",
+    "B": "Ultra Instinct",
+    "C": "Kaioken",
+    "D": "Super Saiyan Blue",
+    "correct": "B"
+  },
+  {
+    "content": "Ai là tác giả của manga Death Note?",
+    "A": "Eiichiro Oda",
+    "B": "Masashi Kishimoto",
+    "C": "Tsugumi Ohba",
+    "D": "Akira Toriyama",
+    "correct": "C"
+  },
+  {
+    "content": "Trong Attack on Titan, nhân vật chính là ai?",
+    "A": "Levi Ackerman",
+    "B": "Eren Yeager",
+    "C": "Mikasa Ackerman",
+    "D": "Armin Arlert",
+    "correct": "B"
+  },
+  {
+    "content": "Studio Ghibli nổi tiếng với bộ phim nào?",
+    "A": "Your Name",
+    "B": "Spirited Away",
+    "C": "Demon Slayer",
+    "D": "Sword Art Online",
+    "correct": "B"
+  },
+  {
+    "content": "Trong Demon Slayer, nhân vật Tanjiro sử dụng hô hấp gì?",
+    "A": "Hô hấp Lửa",
+    "B": "Hô hấp Nước",
+    "C": "Hô hấp Sấm Sét",
+    "D": "Hô hấp Gió",
+    "correct": "B"
+  },
+  {
+    "content": "Pikachu là Pokemon thuộc hệ nào?",
+    "A": "Hệ Lửa",
+    "B": "Hệ Nước",
+    "C": "Hệ Điện",
+    "D": "Hệ Cỏ",
+    "correct": "C"
+  },
+  {
+    "content": "Ai là nhân vật chính trong anime Jujutsu Kaisen?",
+    "A": "Gojo Satoru",
+    "B": "Itadori Yuji",
+    "C": "Fushiguro Megumi",
+    "D": "Sukuna",
+    "correct": "B"
+  },
+  {
+    "content": "Trong anime Spy x Family, Anya có khả năng gì?",
+    "A": "Bay",
+    "B": "Tàng hình",
+    "C": "Đọc suy nghĩ",
+    "D": "Siêu mạnh",
+    "correct": "C"
+  },
+  {
+    "content": "Manga One Piece do ai sáng tác?",
+    "A": "Akira Toriyama",
+    "B": "Eiichiro Oda",
+    "C": "Masashi Kishimoto",
+    "D": "Tite Kubo",
+    "correct": "B"
+  },
+  {
+    "content": "Trong Naruto, Sharingan là đặc sản của gia tộc nào?",
+    "A": "Uzumaki",
+    "B": "Hyuga",
+    "C": "Uchiha",
+    "D": "Senju",
+    "correct": "C"
+  },
+  {
+    "content": "Anime nào có câu nói nổi tiếng 'Plus Ultra'?",
+    "A": "Naruto",
+    "B": "My Hero Academia",
+    "C": "One Punch Man",
+    "D": "Bleach",
+    "correct": "B"
+  },
+  {
+    "content": "Trong Tokyo Ghoul, nhân vật chính Ken Kaneki trở thành sinh vật gì?",
+    "A": "Vampire",
+    "B": "Titan",
+    "C": "Ghoul",
+    "D": "Demon",
+    "correct": "C"
+  },
+  {
+    "content": "Ai đạo diễn bộ phim anime 'Your Name' (Kimi no Na wa)?",
+    "A": "Hayao Miyazaki",
+    "B": "Makoto Shinkai",
+    "C": "Mamoru Hosoda",
+    "D": "Satoshi Kon",
+    "correct": "B"
+  },
+  {
+    "content": "Trong Bleach, vũ khí của Shinigami được gọi là gì?",
+    "A": "Kunai",
+    "B": "Zanpakuto",
+    "C": "Katana",
+    "D": "Shuriken",
+    "correct": "B"
+  },
+  {
+    "content": "Anime nào xoay quanh môn bóng đá với nhân vật chính Isagi Yoichi?",
+    "A": "Captain Tsubasa",
+    "B": "Inazuma Eleven",
+    "C": "Blue Lock",
+    "D": "Ao Ashi",
+    "correct": "C"
+  },
+  {
+    "content": "Trong One Punch Man, nhân vật Saitama có sức mạnh đặc biệt gì?",
+    "A": "Tốc độ ánh sáng",
+    "B": "Hạ gục đối thủ bằng một cú đấm",
+    "C": "Bất tử",
+    "D": "Điều khiển thời gian",
+    "correct": "B"
+  }
+]

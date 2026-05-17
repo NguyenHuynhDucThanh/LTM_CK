@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+}
+
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+button,
+input,
+select {
+  min-height: 40px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 15px;
+}
+
+button {
+  cursor: pointer;
+  border-color: #2563eb;
+  background: #2563eb;
+  color: white;
+}
+
+button:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+input,
+select {
+  width: 100%;
+  margin-bottom: 10px;
+  background: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+.panel {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 18px;
+  margin-bottom: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 280px 1fr 280px;
+  gap: 16px;
+}
+
+.room-item,
+.player-item,
+.score-item,
+.chat-item {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.room-item button {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.answer-btn {
+  width: 100%;
+  margin: 6px 0;
+  text-align: left;
+  background: #0f766e;
+  border-color: #0f766e;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+}
+
+.row input {
+  margin-bottom: 0;
+}
+
+#chatLog {
+  height: 260px;
+  overflow-y: auto;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 10px;
+}
+
+#gameInfo {
+  color: #64748b;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
+  }
+}

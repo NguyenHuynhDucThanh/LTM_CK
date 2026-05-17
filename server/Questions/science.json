@@ -1,0 +1,146 @@
+[
+  {
+    "content": "HTTP là viết tắt của gì?",
+    "A": "HyperText Transfer Protocol",
+    "B": "High Transfer Text Program",
+    "C": "Host Transfer Tool Protocol",
+    "D": "Hyper Tool Text Process",
+    "correct": "A"
+  },
+  {
+    "content": "WebSocket dùng để làm gì?",
+    "A": "Lưu database",
+    "B": "Giao tiếp realtime hai chiều",
+    "C": "Biên dịch CSS",
+    "D": "Tạo file ảnh",
+    "correct": "B"
+  },
+  {
+    "content": "Cấu trúc nào phù hợp để xử lý nhiều client đồng thời trong C#?",
+    "A": "ArrayList",
+    "B": "ConcurrentDictionary",
+    "C": "StringBuilder",
+    "D": "FileStream",
+    "correct": "B"
+  },
+  {
+    "content": "Port mặc định của HTTP là gì?",
+    "A": "21",
+    "B": "443",
+    "C": "80",
+    "D": "8080",
+    "correct": "C"
+  },
+  {
+    "content": "TCP thuộc tầng nào trong mô hình OSI?",
+    "A": "Application",
+    "B": "Transport",
+    "C": "Network",
+    "D": "Data Link",
+    "correct": "B"
+  },
+  {
+    "content": "DNS dùng để làm gì?",
+    "A": "Mã hóa dữ liệu",
+    "B": "Phân giải tên miền thành địa chỉ IP",
+    "C": "Truyền file qua mạng",
+    "D": "Quản lý bộ nhớ",
+    "correct": "B"
+  },
+  {
+    "content": "Giao thức nào được sử dụng để gửi email?",
+    "A": "FTP",
+    "B": "SMTP",
+    "C": "SSH",
+    "D": "DHCP",
+    "correct": "B"
+  },
+  {
+    "content": "Async/Await trong C# dùng để làm gì?",
+    "A": "Tạo giao diện đồ họa",
+    "B": "Xử lý bất đồng bộ",
+    "C": "Kết nối database",
+    "D": "Biên dịch mã nguồn",
+    "correct": "B"
+  },
+  {
+    "content": "IP Address phiên bản 4 có bao nhiêu bit?",
+    "A": "16 bit",
+    "B": "32 bit",
+    "C": "64 bit",
+    "D": "128 bit",
+    "correct": "B"
+  },
+  {
+    "content": "JSON là viết tắt của gì?",
+    "A": "Java Standard Object Notation",
+    "B": "JavaScript Object Notation",
+    "C": "Java Source Open Network",
+    "D": "JavaScript Online Node",
+    "correct": "B"
+  },
+  {
+    "content": "Mô hình OSI có bao nhiêu tầng?",
+    "A": "4",
+    "B": "5",
+    "C": "6",
+    "D": "7",
+    "correct": "D"
+  },
+  {
+    "content": "HTTPS sử dụng cổng mặc định nào?",
+    "A": "80",
+    "B": "8080",
+    "C": "443",
+    "D": "22",
+    "correct": "C"
+  },
+  {
+    "content": "Lệnh nào dùng để kiểm tra kết nối mạng tới một host?",
+    "A": "tracert",
+    "B": "ping",
+    "C": "netstat",
+    "D": "ipconfig",
+    "correct": "B"
+  },
+  {
+    "content": "Subnet mask 255.255.255.0 tương đương với prefix nào?",
+    "A": "/8",
+    "B": "/16",
+    "C": "/24",
+    "D": "/32",
+    "correct": "C"
+  },
+  {
+    "content": "Giao thức nào dùng để truyền file?",
+    "A": "SMTP",
+    "B": "FTP",
+    "C": "DNS",
+    "D": "ARP",
+    "correct": "B"
+  },
+  {
+    "content": "Thiết bị nào hoạt động ở tầng Network trong mô hình OSI?",
+    "A": "Hub",
+    "B": "Switch",
+    "C": "Router",
+    "D": "Repeater",
+    "correct": "C"
+  },
+  {
+    "content": "Thread-safe collection trong C# giúp giải quyết vấn đề gì?",
+    "A": "Tốc độ truy xuất",
+    "B": "Race condition",
+    "C": "Memory leak",
+    "D": "Stack overflow",
+    "correct": "B"
+  },
+  {
+    "content": "WebSocket sử dụng giao thức truyền tải nào?",
+    "A": "UDP",
+    "B": "TCP",
+    "C": "ICMP",
+    "D": "ARP",
+    "correct": "B"
+  }
+]
