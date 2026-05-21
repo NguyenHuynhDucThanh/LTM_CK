@@ -41,8 +41,16 @@ function send(type, data) {
     type,
     data,
     timestamp: Date.now(),
-    requestId: crypto.randomUUID()
+    requestId: createRequestId()
   }));
+}
+
+function createRequestId() {
+  if (crypto?.randomUUID) {
+    return crypto.randomUUID();
+  }
+
+  return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
 }
 
 function handle(message) {

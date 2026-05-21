@@ -29,3 +29,4 @@ D:\LTM\QuizGame\server\obj\Debug\net8.0\refint\server.dll
 D:\LTM\QuizGame\server\obj\Debug\net8.0\server.pdb
 D:\LTM\QuizGame\server\obj\Debug\net8.0\server.genruntimeconfig.cache
 D:\LTM\QuizGame\server\obj\Debug\net8.0\ref\server.dll
+D:\LTM\QuizGame\server\obj\Debug\net8.0\server.sourcelink.json
