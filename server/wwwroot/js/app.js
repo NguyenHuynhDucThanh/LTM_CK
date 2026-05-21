@@ -6,9 +6,14 @@ let questionTimer = null;
 const $ = (id) => document.getElementById(id);
 
 $("joinBtn").onclick = () => {
+  setLoginStatus("Dang ket noi server...");
   socket = new WebSocket(`ws://${location.host}/ws`);
-  socket.onopen = () => send("ENTER_NICKNAME", { nickname: $("nickname").value });
+  socket.onopen = () => {
+    setLoginStatus("Da ket noi WebSocket, dang gui nickname...");
+    send("ENTER_NICKNAME", { nickname: $("nickname").value });
+  };
   socket.onmessage = (event) => handle(JSON.parse(event.data));
+  socket.onerror = () => setLoginStatus("Loi WebSocket. Kiem tra firewall/port 8888 tren may A.");
   socket.onclose = () => alert("Mất kết nối server");
 };
 
@@ -37,19 +42,19 @@ setInterval(() => {
 }, 10000);
 
 function send(type, data) {
-  socket.send(JSON.stringify({
-    type,
-    data,
-    timestamp: Date.now(),
-    requestId: createRequestId()
-  }));
+  try {
+    socket.send(JSON.stringify({
+      type,
+      data,
+      timestamp: Date.now(),
+      requestId: createRequestId()
+    }));
+  } catch (error) {
+    setLoginStatus(`Khong gui duoc ${type}: ${error.message}`);
+  }
 }
 
 function createRequestId() {
-  if (crypto?.randomUUID) {
-    return crypto.randomUUID();
-  }
-
   return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
 }
 
@@ -61,6 +66,7 @@ function handle(message) {
   if (type === "SESSION_CREATED") {
     me = data.player;
     $("me").textContent = `Bạn: ${me.nickname}`;
+    setLoginStatus("");
     show("lobby");
   }
 
@@ -194,4 +200,9 @@ function renderScoreboard(scoreboard) {
 function show(id) {
   ["login", "lobby", "room"].forEach(screen => $(screen).classList.add("hidden"));
   $(id).classList.remove("hidden");
+}
+
+function setLoginStatus(message) {
+  const status = $("loginStatus");
+  if (status) status.textContent = message;
 }
